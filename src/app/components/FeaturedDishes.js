@@ -64,7 +64,7 @@ const FeaturedDishes = () => {
         {/* Header */}
         <div className="text-left mb-5">
           <h2 className="text-2xl text-gray-800 mb-4">
-            Today's Featured Dishes
+            Today&apos;s Featured Dishes
           </h2>
         </div>
 
