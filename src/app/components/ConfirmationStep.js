@@ -50,7 +50,7 @@ export default function ConfirmationStep({ data, onReset }) {
       </div>
 
       <p className="text-[15px] text-gray-500 mb-6">
-        We've sent a confirmation to your email. See you soon!
+        We&apos;sve sent a confirmation to your email. See you soon!
       </p>
 
       <div className="space-y-3">

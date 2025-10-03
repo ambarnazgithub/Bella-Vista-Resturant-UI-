@@ -1,12 +1,13 @@
 import React from "react";
 import { Star, Clock } from "lucide-react";
+import Image from "next/image";
 
 const DishCard = ({ dish, showCategory = false, showDescription = false }) => {
   return (
     <div className="bg-white rounded-[18px] shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
       <div className="relative">
         {/* Dish Image */}
-        <img
+        <Image
           src={dish.image}
           alt={dish.name}
           className="w-full h-48 object-cover"
